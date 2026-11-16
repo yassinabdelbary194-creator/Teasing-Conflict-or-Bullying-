@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teasing, Conflict, or Bullying?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Teasing, Conflict, or Bullying?</h1>
+    <p id="question"></p>
+
+    <div id="choices">
+      <button class="choice-btn" data-answer="Teasing">Teasing</button>
+      <button class="choice-btn" data-answer="Conflict">Conflict</button>
+      <button class="choice-btn" data-answer="Bullying">Bullying</button>
+    </div>
+
+    <p id="feedback"></p>
+    <button id="next" style="display: none">Next Scenario</button>
+    <p id="score">Score: 0</p>
+
+    <div id="results" style="display: none">
+      <h2>Quiz Completed!</h2>
+      <p id="finalScore"></p>
+      <p id="finalMessage"></p>
+      <button id="restart">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
